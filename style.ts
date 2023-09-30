@@ -14,6 +14,11 @@ export const styles = StyleSheet.create({
     borderRadius: 7,
   },
   results: {
+    marginTop: 64,
     flex: 1,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 16,
+    justifyContent: "center",
   },
 });
